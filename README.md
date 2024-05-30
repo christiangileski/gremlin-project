@@ -1,6 +1,6 @@
 # Gremlin Project
 
-This is a small project to meet the requirements of the Gremlin take home assessment found [here](https://github.com/gremlin/frontend-take-home?tab=readme-ov-file#example-api-request)
+This is a small project to meet the requirements of the Gremlin take home assessment found [here](https://github.com/gremlin/frontend-take-home?tab=readme-ov-file#example-api-request).
 
 I've used the following modules to complete the assessment:
 
@@ -15,3 +15,7 @@ I've used the following modules to complete the assessment:
 2. In the project directory, run `npm install` (or similar package manager installation script) to install the project dependencies.
 3. Run `npm run dev` (or similar package manager dev script) to run the project in dev mode.
 4. Alternatively, run `npm run build` then `npm run preview` (or similar package manager scripts) to run a production version of the app.
+
+## Forcing an error
+
+If you want to force an error, open your browser's dev tools. Navigate to the network tab/settings, and set the network throttling to be `offline`. This will cause any axios requests to fail, and the error message will be displayed.
